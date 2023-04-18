@@ -1,0 +1,25 @@
+{
+  "name": "portfolio_vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "core-js": "^3.8.3",
+    "three": "^0.151.3",
+    "vsnow": "^1.0.9",
+    "vue": "^3.2.13",
+    "vue-let-it-snow": "^1.0.0",
+    "vue-router": "^4.0.3",
+    "vue3d": "^0.25.4"
+  },
+  "devDependencies": {
+    "@types/three": "^0.150.1",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  }
+}
