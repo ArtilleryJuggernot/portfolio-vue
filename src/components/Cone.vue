@@ -18,6 +18,24 @@ import cpp from '../assets/cpp.png'
 import csharp from '../assets/csharp.png'
 import python from '../assets/python.png'
 import ocaml from '../assets/ocaml.png'
+import git from '../assets/git.png'
+import unix from '../assets/unix.png'
+import electron from '../assets/electron.png'
+import docker from '../assets/docker.png'
+
+import html from '../assets/html.png'
+import css from '../assets/css.png'
+import js from '../assets/js.png'
+import bootstrap from '../assets/bootstrap.png'
+import vue3 from '../assets/vue3.png'
+
+
+import mariadb from '../assets/mariadb.png'
+import mysql from '../assets/mysql.png'
+import nodejs from '../assets/nodejs.jpg'
+import php from '../assets/php.png'
+
+
 export default {
   name : "Circle",
   components: {
@@ -60,6 +78,45 @@ export default {
         }
         else if(this.Textid == "ocaml"){
           return ocaml;
+        }
+        else if(this.Textid == "git"){
+          return git;
+        }
+        else if(this.Textid == "unix"){
+          return unix;
+        }
+        else if(this.Textid == "electron"){
+          return electron;
+        }
+        else if(this.Textid == "html"){
+          return html;
+        }
+        else if(this.Textid == "css"){
+          return css;
+        }
+        else if(this.Textid == "js"){
+          return js;
+        }
+        else if(this.Textid == "bootstrap"){
+          return bootstrap;
+        }
+        else if(this.Textid == "vue3"){
+          return vue3;
+        }
+        else if(this.Textid == "mariadb"){
+          return mariadb;
+        }
+        else if(this.Textid == "mysql"){
+          return mysql;
+        }
+        else if(this.Textid == "nodejs"){
+          return nodejs;
+        }
+        else if(this.Textid == "php"){
+          return php;
+        }
+        else if(this.Textid == "docker"){
+          return docker;
         }
       }
     }
