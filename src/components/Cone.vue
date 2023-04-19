@@ -36,6 +36,27 @@ import nodejs from '../assets/nodejs.jpg'
 import php from '../assets/php.png'
 
 
+import virtualbox from '../assets/virtualbox.png'
+import vmware from '../assets/vmware.jpg'
+import oraclecloud from '../assets/oraclecloud.jpg'
+
+
+import latex from '../assets/latex.png'
+import markdown from '../assets/markdown.png'
+import obsidian from '../assets/obsidian.png'
+import notion from '../assets/notion.png'
+
+import blender from '../assets/blender.png'
+import photoshop from '../assets/photoshop.jpg'
+import unity from '../assets/unity.jpg'
+
+import numpy from '../assets/numpy.png'
+import vs from '../assets/vs.jpg'
+
+import wordpress from '../assets/wordpress.jpg'
+
+
+// blender
 export default {
   name : "Circle",
   components: {
@@ -118,6 +139,45 @@ export default {
         else if(this.Textid == "docker"){
           return docker;
         }
+        else if(this.Textid == "virtualbox"){
+          return virtualbox;
+        }
+        else if(this.Textid == "vmware"){
+          return vmware;
+        }
+        else if(this.Textid == "oraclecloud"){
+          return oraclecloud;
+        }
+        else if(this.Textid == "latex"){
+          return latex;
+        }
+        else if(this.Textid == "markdown"){
+          return markdown;
+        }
+        else if(this.Textid == "obsidian"){
+          return obsidian;
+        }
+        else if(this.Textid == "notion"){
+          return notion;
+        }
+        else if(this.Textid == "blender"){
+          return blender;
+        }
+        else if(this.Textid == "photoshop"){
+          return photoshop;
+        }
+        else if(this.Textid == "unity"){
+          return unity;
+        }
+        else if(this.Textid == "numpy"){
+          return numpy;
+        }
+        else if(this.Textid == "vs"){
+          return vs;
+        }
+        else if(this.Textid == "wordpress"){
+          return wordpress;
+        }
       }
     }
   },
@@ -176,14 +236,12 @@ const animate = function () {
   let angle;
 
   if (elapsedTime < 1500) {
-    angle = (elapsedTime / 8000) * Math.PI * 2;
+    angle = (elapsedTime / 12000) * Math.PI * 2;
   } else if (elapsedTime < 6000) {
     angle = ((elapsedTime - 1500) / 2000) * Math.PI * 1.25 + Math.PI * 0.5;
   } else {
     angle = ((elapsedTime - 4200) / 4200) * Math.PI * 2.5 + Math.PI * 1.75;
   }
-
-  console.log(elapsedTime);
 
   circle.rotation.y = angle;
   circle.rotation.x = 0;
@@ -214,6 +272,7 @@ width: 100%;
 aspect-ratio: 1/-1;
 padding-bottom: -70%; 
 background: rgba(0,0,0,0.000000000000000000001);
+opacity: 1;
 }
 
 </style>

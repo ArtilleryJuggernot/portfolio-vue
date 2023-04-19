@@ -78,7 +78,8 @@ const scene = new THREE.Scene();
   const material = new THREE.MeshBasicMaterial({ map: texture , alphaTest : 1})
   material.alphaTest = 1;
   const cube = new THREE.Mesh(geometry, material)
-  cube
+  cube.rotation.x = Math.PI / 4;
+  cube.rotation.y = Math.PI / 4;
   scene.add(cube)
   const light = new THREE.DirectionalLight(0xffffff, 1);
   light.position.set(0, 1, 1).normalize();

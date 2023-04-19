@@ -63,8 +63,24 @@
     date="Septembre 2021 - Juin 2022 | Lyon 69003"
     />
 
+
+    <p>
+      Préparation aux écoles d'ingénieurs avec une initiation à la programmation avec la <b>pédagogie par projet</b> 
+      pour étudier l'algorithmie et la programmation orientée objet. 
+      <br><br>
+      Le tout accompagné avec un <b>apprentissage appronfondie en Mathématique , Physique et Electronique</b>
+      <br><br>
+      <b>Technologies utilisées :</b> <b>C#, Ocaml, LaTeX, Python, HTML, CSS, Javascript (+ React)</b>
+    </p>
+
+
+
     <Cube 
     Textid="epita" />
+
+
+
+
 
     <Cursus
     Textid="rouviere"
@@ -72,6 +88,15 @@
     institutionName="Lycée Polyvalent Rouvière"
     date="Septembre 2018 - Juin 2021 | Toulon 83000"
     />
+
+
+    <p>
+      Cursus de terminal avec spécialités <b>Mathématique, Numérique Sciences Informatique et l'option Mathématique Expert</b>.
+      <br><br>
+      Aprentissage et consolidation de Python, SQL et des bases en algorithmie et en structure de données
+      <br><br>
+      <b>Technologies utilisées :</b> <b>Python, SQL, HTML, CSS, Javascript</b>
+    </p>
 
     <Cube 
     Textid="rouviere" />

@@ -41,5 +41,9 @@ aspect-ratio: 1/-1;
 padding-bottom: -70%; 
 }
 
+h2{
+  opacity : 1;
+}
+
   </style>
   

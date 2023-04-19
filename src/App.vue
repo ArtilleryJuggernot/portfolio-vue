@@ -1,5 +1,10 @@
 <template>
-  <div>   
+  <div> 
+
+    <div id="bandeau">
+		<h1 id="texte">Hugo Jacquel</h1>
+	  </div>
+
     <NavVue/>
  
 
@@ -50,6 +55,32 @@ nav a {
 nav a.router-link-exact-active {
   color: #d54017;
 }
+
+#bandeau {
+			color: #fff; /* couleur de texte */
+			height: 50px; /* hauteur du bandeau */
+			overflow: hidden; /* cacher le texte qui dépasse */
+			position: relative; /* positionnement relatif pour le texte qui défile */
+		}
+		
+		/* Définir les styles pour le texte */
+		#texte {
+			font-size: 24px; /* taille du texte */
+			position: absolute; /* positionnement absolu pour le texte qui défile */
+			top: 0; /* position verticale du texte */
+			left: 100%; /* position horizontale initiale du texte */
+			animation: defilement 15s linear infinite; /* animation de défilement */
+		}
+		
+		/* Définir l'animation de défilement */
+		@keyframes defilement {
+			0% {
+				left: 100%; /* position horizontale initiale */
+			}
+			100% {
+				left: -100%; /* position horizontale finale */
+			}
+		}
 
 
 </style>
