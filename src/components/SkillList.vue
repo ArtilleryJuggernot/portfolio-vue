@@ -99,7 +99,17 @@
         <Skill Skillname="Markdown" />
         <Cone Textid="markdown" />
       </div>
+      <div>
+        <Skill Skillname="Obsidian" />
+        <Cone Textid="obsidian" />
+      </div>
+      <div>
+        <Skill Skillname="Notion" />
+        <Cone Textid="notion" />
+      </div>
     </div>
+    
+
   
     <h1>Illustration</h1>
     <div class="skill">

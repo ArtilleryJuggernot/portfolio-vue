@@ -173,15 +173,25 @@ const animate = function () {
   requestAnimationFrame(animate);
 
   const elapsedTime = Date.now() - startTime;
-  const angle = (elapsedTime / 8000) * Math.PI * 2;
-  
+  let angle;
+
+  if (elapsedTime < 1500) {
+    angle = (elapsedTime / 8000) * Math.PI * 2;
+  } else if (elapsedTime < 6000) {
+    angle = ((elapsedTime - 1500) / 2000) * Math.PI * 1.25 + Math.PI * 0.5;
+  } else {
+    angle = ((elapsedTime - 4200) / 4200) * Math.PI * 2.5 + Math.PI * 1.75;
+  }
+
+  console.log(elapsedTime);
+
   circle.rotation.y = angle;
   circle.rotation.x = 0;
   circle.rotation.z = 0;
-  
 
   renderer.render(scene, camera);
 };
+
 
 
 
