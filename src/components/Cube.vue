@@ -14,10 +14,10 @@
   import * as THREE from 'three';
   import { Vue3D, THREEObject } from 'vue3d';
  
-  import chartreux from '../assets/chartreux.jpeg';
-  import epita from '../assets/Epita.jpg';
-  import school42 from '../assets/42.jpg'
-  import rouviere from '../assets/paca.jpg'
+  import chartreux from '../assets/cursus/chartreux.jpeg';
+  import epita from '../assets/cursus/Epita.jpg';
+  import school42 from '../assets/cursus/42.jpg'
+  import rouviere from '../assets/cursus/paca.jpg'
   export default {
     name : "Cube",
     components: {

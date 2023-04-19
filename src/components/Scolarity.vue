@@ -112,13 +112,11 @@
 <script>
 import Cursus from './Cursus.vue';
 import Cube from './Cube.vue';
-import Cone from './Cone.vue';
 
 export default ({
     components : {
     Cursus,
     Cube,
-    Cone,
 },
 })
 </script>

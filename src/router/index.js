@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import Scolarity from  '../components/Scolarity.vue'
 import Test from '../components/Test.vue'
 import SkillList from '../components/SkillList.vue'
+import CertifList from '../components/CertifList.vue'
 const routes = [
   {
     path: '/',
@@ -42,6 +43,12 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component : Test,
 
+  },
+  {
+    path : '/certification',
+    name : 'Certification',
+
+    component : CertifList,
   }
 ]
 

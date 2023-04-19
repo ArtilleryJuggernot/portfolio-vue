@@ -13,48 +13,48 @@ import * as THREE from 'three';
 import { Vue3D, THREEObject } from 'vue3d';
 
 
-import c from '../assets/c.png'
-import cpp from '../assets/cpp.png'
-import csharp from '../assets/csharp.png'
-import python from '../assets/python.png'
-import ocaml from '../assets/ocaml.png'
-import git from '../assets/git.png'
-import unix from '../assets/unix.png'
-import electron from '../assets/electron.png'
-import docker from '../assets/docker.png'
+import c from '../assets/skills/c.png'
+import cpp from '../assets/skills/cpp.png'
+import csharp from '../assets/skills/csharp.png'
+import python from '../assets/skills/python.png'
+import ocaml from '../assets/skills/ocaml.png'
+import git from '../assets/skills/git.png'
+import unix from '../assets/skills/unix.png'
+import electron from '../assets/skills/electron.png'
+import docker from '../assets/skills/docker.png'
 
-import html from '../assets/html.png'
-import css from '../assets/css.png'
-import js from '../assets/js.png'
-import bootstrap from '../assets/bootstrap.png'
-import vue3 from '../assets/vue3.png'
-
-
-import mariadb from '../assets/mariadb.png'
-import mysql from '../assets/mysql.png'
-import nodejs from '../assets/nodejs.jpg'
-import php from '../assets/php.png'
+import html from '../assets/skills/html.png'
+import css from '../assets/skills/css.png'
+import js from '../assets/skills/js.png'
+import bootstrap from '../assets/skills/bootstrap.png'
+import vue3 from '../assets/skills/vue3.png'
 
 
-import virtualbox from '../assets/virtualbox.png'
-import vmware from '../assets/vmware.jpg'
-import oraclecloud from '../assets/oraclecloud.jpg'
+import mariadb from '../assets/skills/mariadb.png'
+import mysql from '../assets/skills/mysql.png'
+import nodejs from '../assets/skills/nodejs.jpg'
+import php from '../assets/skills/php.png'
 
 
-import latex from '../assets/latex.png'
-import markdown from '../assets/markdown.png'
-import obsidian from '../assets/obsidian.png'
-import notion from '../assets/notion.png'
+import virtualbox from '../assets/skills/virtualbox.png'
+import vmware from '../assets/skills/vmware.jpg'
+import oraclecloud from '../assets/skills/oraclecloud.jpg'
 
-import blender from '../assets/blender.png'
-import photoshop from '../assets/photoshop.jpg'
-import unity from '../assets/unity.jpg'
 
-import numpy from '../assets/numpy.png'
-import vs from '../assets/vs.jpg'
+import latex from '../assets/skills/latex.png'
+import markdown from '../assets/skills/markdown.png'
+import obsidian from '../assets/skills/obsidian.png'
+import notion from '../assets/skills/notion.png'
 
-import wordpress from '../assets/wordpress.jpg'
+import blender from '../assets/skills/blender.png'
+import photoshop from '../assets/skills/photoshop.jpg'
+import unity from '../assets/skills/unity.jpg'
 
+import numpy from '../assets/skills/numpy.png'
+import vs from '../assets/skills/vs.jpg'
+
+import wordpress from '../assets/skills/wordpress.jpg'
+import office from '../assets/skills/office.png'
 
 // blender
 export default {
@@ -177,6 +177,9 @@ export default {
         }
         else if(this.Textid == "wordpress"){
           return wordpress;
+        }
+        else if(this.Textid == "office"){
+          return office;
         }
       }
     }

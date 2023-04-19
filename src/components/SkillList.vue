@@ -128,7 +128,7 @@
     </div>
     </div>
 
-    <h1>Mise en forme</h1>
+    <h1>Mise en forme | Multitâche</h1>
     <div class="bg-pattern">
     <div class="skill">
       <div>
@@ -147,6 +147,10 @@
       <div>
         <Skill Skillname="Notion" />
         <Cone Textid="notion" />
+      </div>
+      <div>
+        <Skill Skillname="Pack Office" />
+        <Cone Textid="office" />
       </div>
     </div>
     </div>
