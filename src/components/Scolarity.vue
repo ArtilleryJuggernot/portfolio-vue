@@ -1,10 +1,5 @@
 <template>
 
-
-
-
-
-
     <h1>Scolarité</h1>
     <div class="content-sco">
     <Cursus 
@@ -112,11 +107,12 @@
 <script>
 import Cursus from './Cursus.vue';
 import Cube from './Cube.vue';
-
+import Cylindre from './Cylindre.vue';
 export default ({
     components : {
     Cursus,
     Cube,
+    Cylindre
 },
 })
 </script>

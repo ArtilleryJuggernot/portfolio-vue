@@ -1,16 +1,17 @@
 <template>
-    <div>
-    <Cone
-    Textid="c" />
-    </div>
+    <Cylindre
+    Textid="arch" />
+    <Cube 
+    Textid="chartreux" />
   </template>
   
 
 <script>
 
-import Cone from '../components/Cone.vue';
+import Cube from './Cube.vue';
+import Cylindre from './Cylindre.vue';
 export default ({
-    components: { Cone }
+    components: { Cylindre , Cube}
 })
 </script>
 

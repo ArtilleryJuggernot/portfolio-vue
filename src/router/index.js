@@ -4,6 +4,7 @@ import Scolarity from  '../components/Scolarity.vue'
 import Test from '../components/Test.vue'
 import SkillList from '../components/SkillList.vue'
 import CertifList from '../components/CertifList.vue'
+import DistroList from '../components/DistroList.vue'
 const routes = [
   {
     path: '/',
@@ -49,6 +50,11 @@ const routes = [
     name : 'Certification',
 
     component : CertifList,
+  },
+  {
+    path : '/distro',
+    name : 'Distribution UNIX',
+    component : DistroList,
   }
 ]
 

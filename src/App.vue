@@ -69,7 +69,7 @@ nav a.router-link-exact-active {
 			position: absolute; /* positionnement absolu pour le texte qui défile */
 			top: 0; /* position verticale du texte */
 			left: 100%; /* position horizontale initiale du texte */
-			animation: defilement 15s linear infinite; /* animation de défilement */
+			animation: defilement 10s linear infinite; /* animation de défilement */
 		}
 		
 		/* Définir l'animation de défilement */

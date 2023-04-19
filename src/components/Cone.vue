@@ -225,10 +225,6 @@ const light = new THREE.DirectionalLight(0xffffff, 1);
 light.position.set(0, 1, 1).normalize();
 scene.add(light);
 
-
-// Animation de la scène
-let angle = 0; // Angle initial
-const duration = 5; // Durée de l'animation en secondes
 // Animation de la scène
 var startTime = Date.now(); // Ajouter cette ligne avant la fonction animate
 

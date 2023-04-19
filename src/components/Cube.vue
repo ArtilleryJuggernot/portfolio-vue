@@ -74,6 +74,7 @@ const scene = new THREE.Scene();
   // Création du cube avec une texture personnalisée
   const textureLoader = new THREE.TextureLoader()
   const texture = textureLoader.load(this.getTexture())
+  
   const geometry = new THREE.BoxGeometry(2, 2, 2 )
   const material = new THREE.MeshBasicMaterial({ map: texture , alphaTest : 1})
   material.alphaTest = 1;
@@ -81,6 +82,8 @@ const scene = new THREE.Scene();
   cube.rotation.x = Math.PI / 4;
   cube.rotation.y = Math.PI / 4;
   scene.add(cube)
+  
+  
   const light = new THREE.DirectionalLight(0xffffff, 1);
   light.position.set(0, 1, 1).normalize();
   scene.add(light);
