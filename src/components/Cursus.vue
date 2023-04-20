@@ -10,13 +10,10 @@
   
   
   <script>
-  import { Vue3D, THREEObject } from 'vue3d';
  
 
   export default {
     components: {
-      Vue3D,
-      THREEObject,
     },
     props : {
         

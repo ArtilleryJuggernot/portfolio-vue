@@ -12,7 +12,6 @@
   
   <script>
   import * as THREE from 'three';
-  import { Vue3D, THREEObject } from 'vue3d';
  
   import chartreux from '../assets/cursus/chartreux.jpeg';
   import epita from '../assets/cursus/Epita.jpg';
@@ -21,8 +20,6 @@
   export default {
     name : "Cube",
     components: {
-      Vue3D,
-      THREEObject,
     },
     props : {
         Textid : {

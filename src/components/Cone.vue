@@ -10,7 +10,6 @@
 </template>
 <script>
 import * as THREE from 'three';
-import { Vue3D, THREEObject } from 'vue3d';
 
 
 import c from '../assets/skills/c.png'
@@ -60,8 +59,6 @@ import office from '../assets/skills/office.png'
 export default {
   name : "Circle",
   components: {
-    Vue3D,
-    THREEObject,
   },
   props : {
       Textid : {

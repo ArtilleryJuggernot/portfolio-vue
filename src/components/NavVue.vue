@@ -23,7 +23,7 @@ export default {
 }
 
 
-// TODO : Citation thlr : https://www.youtube.com/watch?v=4rQqUkqkY8M
+// TODO : Citation thlr : diplomatie cf langloy 
 
 </script>
 

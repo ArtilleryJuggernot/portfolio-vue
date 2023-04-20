@@ -5,6 +5,8 @@ import Test from '../components/Test.vue'
 import SkillList from '../components/SkillList.vue'
 import CertifList from '../components/CertifList.vue'
 import DistroList from '../components/DistroList.vue'
+import SchoolProject from '../components/SchoolProject.vue'
+import ProjectPage from '../components/ProjectPage.vue'
 const routes = [
   {
     path: '/',
@@ -55,7 +57,18 @@ const routes = [
     path : '/distro',
     name : 'Distribution UNIX',
     component : DistroList,
+  },
+  {
+    path : '/schoolproject',
+    name : 'Liste des Projets Scolaire',
+    component : SchoolProject
+  },
+  {
+    path : '/projects',
+    name : 'Liste des Projets',
+    component : ProjectPage
   }
+
 ]
 
 const router = createRouter({

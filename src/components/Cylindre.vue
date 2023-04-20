@@ -12,7 +12,6 @@
 
 <script>
 import * as THREE from 'three';
-import {  THREEObject } from 'vue3d';
 
 import arch from '../assets/distro/arch.png';
 import debian from '../assets/distro/debian.png';
@@ -30,7 +29,6 @@ import ubuntu from '../assets/distro/ubuntu.jpg';
 export default {
   name : "Cylindre",
   components: {
-    THREEObject,
   },
   props : {
       Textid : {
