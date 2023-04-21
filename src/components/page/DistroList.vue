@@ -21,6 +21,7 @@
         <Skill Skillname="Manjaro" />
         <Cylindre Textid="manjaro" />
       </div>
+    </div>
     <div class="skill">
       <div>
         <Skill Skillname="Kali Linux" />
@@ -46,13 +47,13 @@
     </div>
     
     
-    </div>
+    
   </template>
   
   <script>
-  import Skill from './Skill.vue';
-  import Cone from './Cone.vue';
-  import Cylindre from './Cylindre.vue';
+  import Skill from '../object/Skill.vue';
+  import Cone from '../object/Cone.vue';
+  import Cylindre from '../object/Cylindre.vue';
   
   export default ({
       name : "SkillList",
@@ -69,7 +70,6 @@
   .Skill,
   .Cone {
     box-sizing: border-box;
-    padding: 10px;
     opacity: 1;
   }
   
@@ -89,9 +89,7 @@
     );
   }
 
-  .bg-pattern{
-    background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255,255,255,0.15)), url("../assets/bg_pattern2.png");
-  }
+
 
 #software > * {
   opacity : 1;

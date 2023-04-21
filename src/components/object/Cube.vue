@@ -13,10 +13,10 @@
   <script>
   import * as THREE from 'three';
  
-  import chartreux from '../assets/cursus/chartreux.jpeg';
-  import epita from '../assets/cursus/Epita.jpg';
-  import school42 from '../assets/cursus/42.jpg'
-  import rouviere from '../assets/cursus/paca.jpg'
+  import chartreux from '../../assets/cursus/chartreux.jpeg';
+  import epita from '../../assets/cursus/Epita.jpg';
+  import school42 from '../../assets/cursus/42.jpg'
+  import rouviere from '../../assets/cursus/paca.jpg'
   export default {
     name : "Cube",
     components: {

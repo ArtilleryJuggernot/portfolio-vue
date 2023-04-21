@@ -44,7 +44,7 @@ export default ({
         },
         ProjectImg : {
             type : String,
-            required : false
+            required : true
         },
         ProjectDate : {
             type : String,
@@ -87,7 +87,6 @@ export default ({
   		0 0/ calc(100% - var(--c)) calc(100% - var(--c)) border-box;
   --inner: conic-gradient(red 0 0) padding-box;
   -webkit-mask: var(--corner), var(--inner);
-  -webkit-mask-composite: source-out;
   mask: var(--corner) subtract, var(--inner);
   content: "";
 }

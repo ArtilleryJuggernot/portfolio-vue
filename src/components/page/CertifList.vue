@@ -74,7 +74,7 @@
 </template>
 
 <script>
-import Certification from './Certification.vue';
+import Certification from '../object/Certification.vue';
 
 
 export default{

@@ -1,4 +1,7 @@
 <template>
+	<head>
+		<title>Hugo Jacquel | Portfolio</title>
+	</head>
   <div> 
 
     <div id="bandeau">
@@ -6,8 +9,8 @@
 	  </div>
 
     <NavVue/>
- 
-
+	<Social/>
+	  
 </div>
 
 </template>
@@ -16,10 +19,12 @@
 
 <script>
 
-import NavVue from './components/NavVue.vue';
+import NavVue from './components/object/NavVue.vue';
+import Social from './components/object/Social.vue';
 export default ({
   components : {
     NavVue,
+	Social
     
   },
   

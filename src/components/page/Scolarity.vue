@@ -105,9 +105,9 @@
 
 
 <script>
-import Cursus from './Cursus.vue';
-import Cube from './Cube.vue';
-import Cylindre from './Cylindre.vue';
+import Cursus from '../object/Cursus.vue';
+import Cube from '../object/Cube.vue';
+import Cylindre from '../object/Cylindre.vue';
 export default ({
     components : {
     Cursus,

@@ -13,16 +13,16 @@
 <script>
 import * as THREE from 'three';
 
-import arch from '../assets/distro/arch.png';
-import debian from '../assets/distro/debian.png';
-import fedora from '../assets/distro/fedora.png';
-import kali from '../assets/distro/kali.png';
-import mageia from '../assets/distro/mageia.png';
-import manjaro from '../assets/distro/manjaro.png';
-import nixos from '../assets/distro/nixos.png';
-import popos from '../assets/distro/popos.png';
-import redhat from '../assets/distro/redhat.png';
-import ubuntu from '../assets/distro/ubuntu.jpg';
+import arch from '../../assets/distro/arch.png';
+import debian from '../../assets/distro/debian.png';
+import fedora from '../../assets/distro/fedora.png';
+import kali from '../../assets/distro/kali.png';
+import mageia from '../../assets/distro/mageia.png';
+import manjaro from '../../assets/distro/manjaro.png';
+import nixos from '../../assets/distro/nixos.png';
+import popos from '../../assets/distro/popos.png';
+import redhat from '../../assets/distro/redhat.png';
+import ubuntu from '../../assets/distro/ubuntu.jpg';
 
 
 
@@ -81,7 +81,7 @@ export default {
 
 const canvas = this.$refs.canvas;
 const container = canvas.parentNode;
-const width = container.clientWidth;
+const width = container.clientWidth - 10;
 const height = container.clientHeight;
 // Création de la scène
 // Création de la scène
@@ -89,7 +89,7 @@ const scene = new THREE.Scene();
 
 
 // Création de la caméra
-const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera(75, (width) / height, 0.1, 1000);
 camera.position.z = 5
 
 // Création du rendu
@@ -150,9 +150,7 @@ animate();
 
   .canvas-container {
 flex: 1;
-width: 100%;
 aspect-ratio: 1/-1;
-padding-bottom: -70%; 
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(141,141,193,1) 0%, rgba(120,144,217,1) 32%, rgba(95,193,225,1) 66%, rgba(50,65,239,1) 100%, rgba(0,212,255,1) 100%); 
 
 }

@@ -1,12 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import Scolarity from  '../components/Scolarity.vue'
+import Scolarity from  '../components/page/Scolarity.vue'
 import Test from '../components/Test.vue'
-import SkillList from '../components/SkillList.vue'
-import CertifList from '../components/CertifList.vue'
-import DistroList from '../components/DistroList.vue'
-import SchoolProject from '../components/SchoolProject.vue'
-import ProjectPage from '../components/ProjectPage.vue'
+import SkillList from '../components/page/SkillList.vue'
+import CertifList from '../components/page/CertifList.vue'
+import DistroList from '../components/page/DistroList.vue'
+import SchoolProject from '../components/page/SchoolProject.vue'
+import ProjectPage from '../components/page/ProjectPage.vue'
+import Contact from '../components/page/Contact.vue'
+import StageXP from '../components/page/StageXP.vue'
+import PersonalProject from '../components/page/PersonalProject.vue'
 const routes = [
   {
     path: '/',
@@ -67,6 +70,21 @@ const routes = [
     path : '/projects',
     name : 'Liste des Projets',
     component : ProjectPage
+  },
+  {
+    path : '/contact',
+    name : 'Contact',
+    component : Contact 
+  },
+  {
+    path : '/experience',
+    name : 'Experience & Stage',
+    component : StageXP
+  },
+  {
+    path : '/personalproject',
+    name : 'Liste des Projets Personnels',
+    component : PersonalProject
   }
 
 ]
@@ -75,5 +93,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes
 })
+
+
 
 export default router

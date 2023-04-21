@@ -12,48 +12,48 @@
 import * as THREE from 'three';
 
 
-import c from '../assets/skills/c.png'
-import cpp from '../assets/skills/cpp.png'
-import csharp from '../assets/skills/csharp.png'
-import python from '../assets/skills/python.png'
-import ocaml from '../assets/skills/ocaml.png'
-import git from '../assets/skills/git.png'
-import unix from '../assets/skills/unix.png'
-import electron from '../assets/skills/electron.png'
-import docker from '../assets/skills/docker.png'
+import c from '../../assets/skills/c.png'
+import cpp from '../../assets/skills/cpp.png'
+import csharp from '../../assets/skills/csharp.png'
+import python from '../../assets/skills/python.png'
+import ocaml from '../../assets/skills/ocaml.png'
+import git from '../../assets/skills/git.png'
+import unix from '../../assets/skills/unix.png'
+import electron from '../../assets/skills/electron.png'
+import docker from '../../assets/skills/docker.png'
 
-import html from '../assets/skills/html.png'
-import css from '../assets/skills/css.png'
-import js from '../assets/skills/js.png'
-import bootstrap from '../assets/skills/bootstrap.png'
-import vue3 from '../assets/skills/vue3.png'
-
-
-import mariadb from '../assets/skills/mariadb.png'
-import mysql from '../assets/skills/mysql.png'
-import nodejs from '../assets/skills/nodejs.jpg'
-import php from '../assets/skills/php.png'
+import html from '../../assets/skills/html.png'
+import css from '../../assets/skills/css.png'
+import js from '../../assets/skills/js.png'
+import bootstrap from '../../assets/skills/bootstrap.png'
+import vue3 from '../../assets/skills/vue3.png'
 
 
-import virtualbox from '../assets/skills/virtualbox.png'
-import vmware from '../assets/skills/vmware.jpg'
-import oraclecloud from '../assets/skills/oraclecloud.jpg'
+import mariadb from '../../assets/skills/mariadb.png'
+import mysql from '../../assets/skills/mysql.png'
+import nodejs from '../../assets/skills/nodejs.jpg'
+import php from '../../assets/skills/php.png'
 
 
-import latex from '../assets/skills/latex.png'
-import markdown from '../assets/skills/markdown.png'
-import obsidian from '../assets/skills/obsidian.png'
-import notion from '../assets/skills/notion.png'
+import virtualbox from '../../assets/skills/virtualbox.png'
+import vmware from '../../assets/skills/vmware.jpg'
+import oraclecloud from '../../assets/skills/oraclecloud.jpg'
 
-import blender from '../assets/skills/blender.png'
-import photoshop from '../assets/skills/photoshop.jpg'
-import unity from '../assets/skills/unity.jpg'
 
-import numpy from '../assets/skills/numpy.png'
-import vs from '../assets/skills/vs.jpg'
+import latex from '../../assets/skills/latex.png'
+import markdown from '../../assets/skills/markdown.png'
+import obsidian from '../../assets/skills/obsidian.png'
+import notion from '../../assets/skills/notion.png'
 
-import wordpress from '../assets/skills/wordpress.jpg'
-import office from '../assets/skills/office.png'
+import blender from '../../assets/skills/blender.png'
+import photoshop from '../../assets/skills/photoshop.jpg'
+import unity from '../../assets/skills/unity.jpg'
+
+import numpy from '../../assets/skills/numpy.png'
+import vs from '../../assets/skills/vs.jpg'
+
+import wordpress from '../../assets/skills/wordpress.jpg'
+import office from '../../assets/skills/office.png'
 
 // blender
 export default {

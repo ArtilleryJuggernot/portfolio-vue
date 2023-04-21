@@ -189,8 +189,8 @@
   </template>
   
   <script>
-  import Skill from './Skill.vue';
-  import Cone from './Cone.vue';
+  import Skill from '../object/Skill.vue';
+  import Cone from '../object/Cone.vue';
   
   export default ({
       name : "SkillList",
@@ -227,10 +227,11 @@
     );
   }
 
+  /* 
   .bg-pattern{
-    background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255,255,255,0.15)), url("../assets/bg_pattern2.png");
+    background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255,255,255,0.15)), url("../../assets/bg_pattern2.png");
   }
-
+*/
 #software > * {
   opacity : 1;
 }

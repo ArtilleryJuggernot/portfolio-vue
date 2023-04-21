@@ -8,8 +8,8 @@
 
 <script>
 
-import Cube from './Cube.vue';
-import Cylindre from './Cylindre.vue';
+import Cube from './object/Cube.vue';
+import Cylindre from './object/Cylindre.vue';
 export default ({
     components: { Cylindre , Cube}
 })

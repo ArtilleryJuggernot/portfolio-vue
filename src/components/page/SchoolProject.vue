@@ -83,20 +83,20 @@
     ProjectDescription="AFIT (Arithmétique For IT) est un projet d'algorithmes d'opérations arithmétique à implémenter en Ocaml : Arithmétique classique, Bézout, PGCD, tests et génération de nombres premiers, RSA, El gamal, César, théorème des restes chinois (et autres).
     <br><br> Programmer les fonctions pour la base 10 puis pour la base 2 (scalable) puis utiliser le framework Zarith pour pouvoir gérer des nombres de très grande taille.
     <br><br> Résumé du projet disponible <a href='https://maths.prepa.cri.epita.fr/' target='_blank'>ici</a>"
-    ProjectImg="epita.jpg"
+    ProjectImg="Epita.jpg"
     ProjectLink="https://github.com/MrHugojuggernot/AFIT"
     ProjectDate="(Septembre 2021 - Décembre 2021)"
     ProjectTech="Ocaml, Framework Zarith"
     />
-<!--
+
     <Project
     ProjectName="TP C# | Python"
-    ProjectDescription=""
-    ProjectImg="epita.jpg"
-    ProjectDate="Septembre 2021 - Juin 2022"
-    ProjectTech="C#"
+    ProjectDescription="Les TP C# et Python permettent de travailler l'algorithmie et la programmation orientée objet (POO) sous la forme de différents exercice : pendu, gestion de fichier, multithreading, aes encryption, pathfinding, etc."
+    ProjectImg="Epita.jpg"
+    ProjectDate="(Septembre 2021 - Juin 2022)"
+    ProjectTech="C# , Python"
     />
--->
+
 
 
 
@@ -105,7 +105,7 @@
 
 <script>
 
-import Project from './Project.vue';
+import Project from '../object/Project.vue';
 
 export default ({
     setup() {

@@ -19,7 +19,15 @@
 
 <script>
 export default {
-  name: 'NavVue'
+  name: 'NavVue',
+  watch: {
+        $route: {
+            immediate: true,
+            handler() {
+                document.title  = "Hugo Jacquel | Portfolio"
+            }
+        },
+    }
 }
 
 
@@ -28,5 +36,6 @@ export default {
 </script>
 
 <style scoped>
+
 
 </style>
