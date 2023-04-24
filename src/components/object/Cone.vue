@@ -55,6 +55,7 @@ import vs from '../../assets/skills/vs.jpg'
 import wordpress from '../../assets/skills/wordpress.jpg'
 import office from '../../assets/skills/office.png'
 import threejs from '../../assets/skills/threejs.png'
+import uml from '../../assets/skills/uml.png'
 // blender
 export default {
   name : "Circle",
@@ -180,6 +181,9 @@ export default {
         }
         else if(this.Textid == "threejs"){
           return threejs;
+        }
+        else if(this.Textid == "uml"){
+          return uml;
         }
       }
     }

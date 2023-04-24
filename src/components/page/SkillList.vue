@@ -38,6 +38,10 @@
         <Skill Skillname="Visual Studio Code" />
         <Cone Textid="vs" />
       </div>
+      <div>
+        <Skill Skillname="UML"/>
+        <Cone Textid="uml"/>
+      </div>
     </div>
   </div>
     <h1>Front End Web</h1>
