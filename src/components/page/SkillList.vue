@@ -2,7 +2,7 @@
     <h1>Software Development</h1>
     <div class="bg-pattern">
     <div class="skill">
-      <div class="opa">
+      <div>
         <Skill Skillname="C" />
         <Cone Textid="c" />
       </div>
@@ -22,9 +22,7 @@
         <Skill Skillname="Ocaml" />
         <Cone Textid="ocaml" />
       </div>
-    </div>
-    <div class="skill">
-      <div>
+            <div>
         <Skill Skillname="Git" />
         <Cone Textid="git" />
       </div>
@@ -65,9 +63,7 @@
         <Skill Skillname="Vue3" />
         <Cone Textid="vue3" />
       </div>
-    </div>
-    <div class="skill">
-      <div>
+            <div>
         <Skill Skillname="Wordpress" />
         <Cone Textid="wordpress" />
       </div>
@@ -227,11 +223,7 @@
     );
   }
 
-  /* 
-  .bg-pattern{
-    background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255,255,255,0.15)), url("../../assets/bg_pattern2.png");
-  }
-*/
+
 #software > * {
   opacity : 1;
 }

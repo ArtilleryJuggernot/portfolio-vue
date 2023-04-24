@@ -21,8 +21,7 @@
         <Skill Skillname="Manjaro" />
         <Cylindre Textid="manjaro" />
       </div>
-    </div>
-    <div class="skill">
+
       <div>
         <Skill Skillname="Kali Linux" />
         <Cylindre Textid="kali" />
@@ -43,7 +42,6 @@
             <Skill Skillname="Ubuntu" />
             <Cylindre Textid="ubuntu" />
         </div>
-        
     </div>
     
     
