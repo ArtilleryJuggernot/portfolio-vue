@@ -63,7 +63,12 @@
         <Skill Skillname="Vue3" />
         <Cone Textid="vue3" />
       </div>
-            <div>
+    <div>
+      <Skill Skillname="ThreeJS"/>
+        <Cone Textid="threejs"/>
+    </div>
+      
+      <div>
         <Skill Skillname="Wordpress" />
         <Cone Textid="wordpress" />
       </div>
