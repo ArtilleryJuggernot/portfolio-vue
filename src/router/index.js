@@ -10,6 +10,9 @@ import ProjectPage from '../components/page/ProjectPage.vue'
 import Contact from '../components/page/Contact.vue'
 import StageXP from '../components/page/StageXP.vue'
 import PersonalProject from '../components/page/PersonalProject.vue'
+import HardSkillMatrice from '../components/page/HardSkillMatrice.vue'
+import E5Skill from '../components/page/E5Skill'
+
 const routes = [
   {
     path: '/',
@@ -85,7 +88,18 @@ const routes = [
     path : '/personalproject',
     name : 'Liste des Projets Personnels',
     component : PersonalProject
+  },
+  {
+    path : '/skillschart',
+    name : "Tableau des compétences",
+    component : HardSkillMatrice
+  },
+  {
+    path : '/E5Skill',
+    name : "E5 Skill",
+    component : E5Skill
   }
+
 
 ]
 

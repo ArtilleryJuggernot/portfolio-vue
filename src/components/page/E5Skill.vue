@@ -1,0 +1,102 @@
+<template>
+    <h1>Listes des compétences E5 Portfolio validées</h1>
+    <br><br><br><br>
+    <h3>Capacité à rendre compte d’un travail réalisé au sein d’une équipe projet en mettant clairement en évidence sa contribution personnelle</h3>
+
+
+    <p> >>> <a target=”_blank” href="https://github.com/MrHugojuggernot/RESAPPLI-SLAM">Github RES-Application</a></p>
+
+    <br><br><br><br>
+
+
+    <h3>Gérer le patrimoine informatique</h3>
+
+<ol>
+
+
+<li>Recenser et identifier les ressources numériques</li>
+<li>	Exploiter des référentiels, normes et standards adoptés par le prestataire informatique</li>
+<li> Mettre en place et vérifier les niveaux d’habilitation associés à un service</li>
+<li>	Vérifier les conditions de la continuité d’un service informatique</li>
+<b><li>	Gérer des sauvegardes</li></b>
+<li>	Vérifier le respect des règles</li> 
+</ol>
+
+<p>>>> <a target=”_blank” href="./TP Sauvegarde.pdf">TP Sauvegarde</a></p>
+
+
+
+<h3>Répondre aux incidents et aux demandes d’assistance et d’évolution</h3>
+<ol>
+<b><li> Collecter, suivre et orienter des demandes </li></b>
+<li> Traiter des demandes concernant les services réseau et système, applicatifs </li>
+<li> Traiter des demandes concernant les applications </li>
+</ol>
+
+<p>>>> <a target=”_blank” href="./TP Appel Offre.pdf">TP Appel d'Offre</a>   <a target=”_blank” href="./TP Appel Offre Template.pdf">(Contexte Original)</a>  </p>
+
+
+<h3>Développer la présence en ligne de l’organisation</h3>
+<ol>
+<b> <li>	Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques</li> </b>
+<b> <li>	Référencer les services en ligne de l’organisation et mesurer leur visibilité.</li> </b>
+<b> <li>	Participer à l’évolution d’un site Web exploitant les données de l’organisation.</li> </b>
+</ol>
+
+
+<p> >>> <a target="_blank" href="./Dev présence en ligne.pdf">TP Développement de la présence en ligne</a></p>
+
+
+<h3>Travailler en mode projet</h3>
+<ol>
+<b><li>	Analyser les objectifs et les modalités d’organisation d’un projet </li> </b> 
+<b><li>	Planifier les activités </li> </b> 
+<b><li>	Évaluer les indicateurs de suivi </li>  </b> 
+</ol>
+ 
+
+<p> >>> <a target="_blank" href="./Equinox.pdf">Rapport de Soutenance Equinox C# Unity</a></p>
+
+<h3>Mettre à disposition des utilisateurs un service informatique</h3>
+<ol>
+<b> <li>Réaliser les tests d’intégration et d’acceptation d’un service </li></b> 
+<b> <li>Déployer un service </li></b> 
+<b> <li>Accompagner les utilisateurs dans la mise en place d’un service </li> </b> 
+</ol>
+
+
+<p> >>> <a target="_blank" href="https://github.com/MrHugojuggernot/TP-Navire-E5">TP Navire C# Unit Test</a></p>
+
+
+<h3>Organiser son développement professionnel</h3>
+<ol>
+<li>	Mettre en place son environnement d’apprentissage personnel </li>
+<li>	Mettre en œuvre des outils et stratégies de veille informationnelle </li>
+<b> <li> Gérer son identité professionnelle </li> </b>
+<b> <li>Développer son projet professionnel </li> </b>
+</ol>
+
+<p> >>> <a target="_blank" href="./Dev présence en ligne.pdf">TP Développement de la présence en ligne</a></p>
+
+
+
+</template>
+
+<script>
+
+
+export default {
+  name: 'E5 Skill',
+
+}
+</script>
+
+<style scoped>
+
+h3, ol, p , li{
+    text-align: justify;
+}
+
+
+
+</style>
