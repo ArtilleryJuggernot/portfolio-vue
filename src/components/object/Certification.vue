@@ -4,7 +4,7 @@
     <div class="certification-details">
         <h3>{{ CertName }}</h3>
         <p>Organisme délivreur : <span>{{ CertDeliv }}</span></p>
-        <a id="link" v-if="CertLink" :href="CertLink" >Lien vers la certification</a>
+        <a id="link" v-if="CertLink" target="_blank" :href="CertLink" >Lien vers la certification</a>
     </div>
     <br>
     <br>    

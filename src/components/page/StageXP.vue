@@ -12,6 +12,21 @@
 
 
     <Experience
+    XPName="(Stage) | Développeur R&D Vue 3 (BTS SIO 1)"
+    XPLieu="49 Av. Albert Einstein, 69100 Villeurbanne"
+    XPDeliver="Ciril GROUP | Business Geografic"
+    XPDescription="Participation au développement et à l'intégration de la <a target='_blank' href='https://www.business-geografic.com/fr/'>plateforme SIG GEO</a> au sein de l'équipe R&D de Business Geographic. 
+    <br> <br>
+    Migration de stack technique Vue 2 -> Vue 3 | Composition API. 
+    <br><br>
+    Découverte de la méthodologie agile, la gestion de ticket avec Jira et l'automatisation avec Jenkins"
+    XPImg="bg.png"
+    XPDate="(Juin 2023 - Juillet 2023)"
+    XPTech="Vue 3, Docker , HTML5 , CSS , JavaScript, Jira, Jenkins"
+    />
+
+
+    <Experience
     XPName="(Association) | Aide au debug et au développement Mageia"
     XPLieu="7 Pl. Louis Chazette, 69001 Lyon, Rhône, Auvergne-Rhône-Alpes, France"
     XPDeliver="Lyon Association Libre Informatique Solidaire (LALIS)"

@@ -5,7 +5,8 @@
     <h2>Institution des Chartreux - BTS SIO 1</h2>
     
 
-    <Project 
+    <div id="res-appli">
+    <Project
         ProjectName="RES-Appli"
         ProjectDescription="Application (client lourd/léger Electron JS) de <b>gestion de réservations en ligne </b> selon des contraintes 
         <br> avec des options de personalisation et un système de permission. 
@@ -18,7 +19,7 @@
         ProjectDate="(Janvier - Avril 2023)"
         ProjectTech="Figma , HTML, CSS, JS, Electron JS, Node JS (avec intégration SQL possible)"
     />
-
+    </div>
 
     <Project 
         ProjectName="Prixy - Infrastructure & Modélisation de la base de donnée"
@@ -111,6 +112,11 @@ export default ({
     setup() {
         
     },
+    mounted() {
+            var section=this.$router.currentRoute.value.hash.replace("#", "");
+            if (section)
+                this.$nextTick(()=> window.document.getElementById(section).scrollIntoView());
+        },
     components: { Project }
 })
 </script>

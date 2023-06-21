@@ -11,8 +11,7 @@ import Contact from '../components/page/Contact.vue'
 import StageXP from '../components/page/StageXP.vue'
 import PersonalProject from '../components/page/PersonalProject.vue'
 import HardSkillMatrice from '../components/page/HardSkillMatrice.vue'
-import E5Skill from '../components/page/E5Skill'
-
+import E5Skill from '../components/page/E5Skill.vue'
 const routes = [
   {
     path: '/',
@@ -98,7 +97,7 @@ const routes = [
     path : '/E5Skill',
     name : "E5 Skill",
     component : E5Skill
-  }
+  },
 
 
 ]

@@ -3,8 +3,9 @@
     <br><br><br><br>
     <h3>Capacité à rendre compte d’un travail réalisé au sein d’une équipe projet en mettant clairement en évidence sa contribution personnelle</h3>
 
+    
 
-    <p> >>> <a target=”_blank” href="https://github.com/MrHugojuggernot/RESAPPLI-SLAM">Github RES-Application</a></p>
+    <p>Le <router-link to="/schoolproject#res-appli">projet RES-Appli</router-link> permet de montrer la réalisation d'un travail en équipe et de voir son évolution grâce au système de versionning Git.</p>
 
     <br><br><br><br>
 
