@@ -4,7 +4,7 @@
   <div class="text">
     <h2>À propos de moi</h2>
     <h3>Développeur Fullstack Vue 3</h3>
-    <h3>Étudiant en BTS SIO 1 option SLAM (Développement) à l'Institution des Chartreux, Croix-Rousse (Lyon)</h3>
+    <h3>Étudiant en BTS SIO 2 option SLAM (Développement) à l'Institution des Chartreux, Croix-Rousse (Lyon)</h3>
     <p>
       Principalement intéressé dans le développement low-level (C , C++), 
       et les différents aspects sécurités qui sont lié à chaque sous domaine de l'informatique 
@@ -32,11 +32,16 @@
       Pour préparer la suite de mes études pour valider mon BTS SIO en 2ième année,
       je suis à la recherche d'un stage de 8 semaines dans l'informatique (principalement dans le développement 
       front/back end web/software, cybersécurité, base de donnée). 
+      <br><br>
 
       <br><br>
-      Les dates de ce stage sont suceptible de changer (basée sur celle de l'année 2023) : 6 février 2024 - 31 mars 2024.
+      Les dates de ce stage sont suceptible de changer (basée sur celle de l'année 2023) : 26 février au 19 avril 2024 .
     </p>
   
+
+    Par la suite, je poursuiverai avec le <b>cycle ingénieur informatique et cybersécurité (ICS)</b> à l'école <b>CPE Lyon</b>.
+
+
     <p>Ci-desous, retrouvez mon CV (réalisé à l'occasion pour mon stage de Juin 2023 que j'ai trouvé)</p>
 
 

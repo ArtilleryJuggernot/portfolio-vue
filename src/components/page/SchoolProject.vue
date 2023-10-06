@@ -2,8 +2,23 @@
     <h1>Liste des projets scolaires :</h1>
 
 
-    <h2>Institution des Chartreux - BTS SIO 1</h2>
+    <h2>Institution des Chartreux - BTS SIO 2</h2>
     
+    <div id="fireman">
+    <Project
+        ProjectName="Fireman"
+        ProjectDescription="Site web de gestion de casernes et de pompiers basé sur le modèle MVC (Modèle Vue Controller).
+        <br> Conçu en PHP avec la réalisation d'un Renderer, Routeur protection contres les failles XSS , CSRF , injection SQL et autres.
+        <br> L'objectif était de créer un site web de A-Z en utilisant Bootstrap et comprendre les différentes logiques métiers et applicatives."
+        ProjectLink=""
+        ProjectImg="fireman.jpg"
+        ProjectDate="(Septembre 2024 - Décembre 2024)"
+        ProjectTech="HTML, CSS, PHP, SQL , BootStrap"
+    />
+    </div>
+
+
+    <h2>Institution des Chartreux - BTS SIO 1</h2>
 
     <div id="res-appli">
     <Project

@@ -6,6 +6,19 @@
         CertImg="etat.jpeg"/>
 
 
+        <Certification
+        CertName="MOOC : Gérez votre parc informatique avec GLPI"
+        CertDeliv="OpenClassrooms"
+        CertDate="septembre 2023"
+        CertImg="openclassrooms.png"/>
+
+
+    <Certification
+        CertName="Formation PHP 8 : Les bases de la POO"
+        CertDeliv="Alphorm"
+        CertDate="juin 2023"
+        CertLink="https://www.alphorm.com/Attestation/Yd5Eg539EKwY0"
+        CertImg="alphorm.png"/>
 
             
     <Certification
@@ -43,7 +56,13 @@
         CertDate="avril 2023"
         CertLink="https://ionisx.com/certifications/64352dbf2f818213701a2f2e"
         CertImg="ionisx.png"/>
-    
+
+        <Certification
+        CertName="Vue JS 3 : Maîtriser les bases"
+        CertDeliv="Alphorm"
+        CertDate="avril 2023"
+        CertLink="https://www.alphorm.com/Attestation/n8qRgxllRobae"
+        CertImg="alphorm.png"/>
     
         <Certification
         CertName="Certification : Emailing Marketing"
