@@ -10,7 +10,7 @@
         XPTech="Docker, Vue 3" />
     -->
 
-
+<div id="cirilgroup1"></div>
     <Experience
     XPName="(Stage) | Développeur R&D Vue 3 (BTS SIO 1)"
     XPLieu="49 Av. Albert Einstein, 69100 Villeurbanne"
@@ -19,10 +19,12 @@
     <br> <br>
     Migration de stack technique Vue 2 -> Vue 3 | Composition API. 
     <br><br>
-    Découverte de la méthodologie agile, la gestion de ticket avec Jira et l'automatisation avec Jenkins"
+    Découverte de la méthodologie agile, la gestion de ticket avec Jira et l'automatisation avec Jenkins
+    <br><br> 
+    Régulation et mis à jour des tests unitaires sur les technologies d'indexation <b>Elastic Search et Lucene</b> en Java"
     XPImg="bg.png"
     XPDate="(Juin 2023 - Juillet 2023)"
-    XPTech="Vue 3, Docker , HTML5 , CSS , JavaScript, Jira, Jenkins"
+    XPTech="Vue 3, Docker , HTML5 , CSS , JavaScript, Jira, Jenkins, Linux, Java"
     />
 
 
@@ -77,6 +79,16 @@
     />
 
 
+    <Experience
+    XPName="(Association) Smash Mystral"
+    XPLieu="La Garde | La Valette, 83130, Var, Provence-Alpes-Côte d'Azur, France "
+    XPDeliver="Smash Mystral"
+    XPDescription="Association d'organisation de compétition sur le jeux vidéo <b>Super Smash Bros Ultimate</b> retransmit en direct sur Twitch"
+    XPImg="smash_mystral.jpg"
+    XPDate="(Septembre 2018 - Juin 2020)"
+    XPTech="OBS, Windows , Linux , Organisation"
+    />
+
 
     <Experience
         XPName="(Emploi saisonnier) Animateur de centre de loisirs"
@@ -87,8 +99,9 @@
         XPDate="(Juin 2018 - Juillet 2018)"
         />
 
+
     
-        
+     
 
 </template>
 
@@ -100,6 +113,11 @@ export default ({
     setup() {
         
     },
+    mounted() {
+            var section=this.$router.currentRoute.value.hash.replace("#", "");
+            if (section)
+                this.$nextTick(()=> window.document.getElementById(section).scrollIntoView());
+        },
     components : {
         Experience
     },

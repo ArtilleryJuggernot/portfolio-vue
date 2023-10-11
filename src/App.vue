@@ -42,6 +42,13 @@ export default ({
   
 }
 
+h3{
+	font-size: 2.7ch;
+}
+
+p , li{
+	font-size: 2.2ch;
+}
 
 body{
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(141,141,193,1) 0%, rgba(120,144,217,1) 32%, rgba(95,193,225,1) 66%, rgba(50,65,239,1) 100%, rgba(0,212,255,1) 100%); 
