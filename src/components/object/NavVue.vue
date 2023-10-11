@@ -11,6 +11,7 @@
     <router-link to="/projects">Projets</router-link> |
     <router-link to="/certification">Certification</router-link> |
     <router-link to="/contact">Contact</router-link> |
+    <!--<router-link to="/Veille">Veille informationnelle</router-link> |-->
     <router-link to="/skillschart">Tableau des compétences</router-link> |
     <router-link to="/E5Skill">E5 Skills</router-link>
 </nav>
