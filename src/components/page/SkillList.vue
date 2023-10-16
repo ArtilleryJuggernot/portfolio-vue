@@ -4,43 +4,73 @@
     <div class="skill">
       <div>
         <Skill Skillname="C" />
-        <Cone Textid="c" />
+        <Cone Textid="c.png" 
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
       <div>
         <Skill Skillname="C++" />
-        <Cone Textid="cpp" />
+        <Cone Textid="cpp.png" 
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
       <div>
         <Skill Skillname="C#" />
-        <Cone Textid="csharp" />
+        <Cone Textid="csharp.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
       </div>
       <div>
         <Skill Skillname="Python" />
-        <Cone Textid="python" />
+        <Cone Textid="python.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
       </div>
       <div>
         <Skill Skillname="Ocaml" />
-        <Cone Textid="ocaml" />
+        <Cone Textid="ocaml.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
       </div>
             <div>
         <Skill Skillname="Git" />
-        <Cone Textid="git" />
+        <Cone Textid="git.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
       </div>
       <div>
         <Skill Skillname="Unix" />
-        <Cone Textid="unix" />
+        <Cone Textid="unix.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
       </div>
       <div>
         <Skill Skillname="Electron" />
-        <Cone Textid="electron" />
+        <Cone Textid="electron.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
       </div>
       <div>
         <Skill Skillname="Visual Studio Code" />
-        <Cone Textid="vs" />
+        <Cone Textid="vs.png" 
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
       <div>
         <Skill Skillname="UML"/>
-        <Cone Textid="uml"/>
+        <Cone Textid="uml.png" 
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
       </div>
     </div>
   </div>
@@ -49,32 +79,53 @@
     <div class="skill">
       <div>
         <Skill Skillname="HTML" />
-        <Cone Textid="html" />
+        <Cone Textid="html.png" 
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
       <div>
         <Skill Skillname="CSS" />
-        <Cone Textid="css" />
+        <Cone Textid="css.png" 
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
       <div>
         <Skill Skillname="Javascript" />
-        <Cone Textid="js" />
+        <Cone Textid="js.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
       </div>
       <div>
         <Skill Skillname="Bootstrap" />
-        <Cone Textid="bootstrap" />
+        <Cone Textid="bootstrap.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
       </div>
       <div>
         <Skill Skillname="Vue3" />
-        <Cone Textid="vue3" />
+        <Cone Textid="vue3.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
       </div>
     <div>
       <Skill Skillname="ThreeJS"/>
-        <Cone Textid="threejs"/>
+        <Cone Textid="threejs.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
     </div>
       
       <div>
         <Skill Skillname="Wordpress" />
-        <Cone Textid="wordpress" />
+        <Cone Textid="wordpress.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
       </div>
     </div>
   </div>
@@ -83,23 +134,38 @@
     <div class="skill">
       <div>
         <Skill Skillname="Javascript" />
-        <Cone Textid="js" />
+        <Cone Textid="js.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
       </div>
       <div>
         <Skill Skillname="MariaDB" />
-        <Cone Textid="mariadb" />
+        <Cone Textid="mariadb.png" 
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
       <div>
         <Skill Skillname="MySQL" />
-        <Cone Textid="mysql" />
+        <Cone Textid="mysql.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
       </div>
       <div>
         <Skill Skillname="NodeJS" />
-        <Cone Textid="nodejs" />
+        <Cone Textid="nodejs.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
       </div>
       <div>
         <Skill Skillname="PHP" />
-        <Cone Textid="php" />
+        <Cone Textid="php.png" 
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
     
     </div>
@@ -111,22 +177,34 @@
       <div>
 
         <Skill Skillname="VirtualBox" />
-        <Cone Textid="virtualbox" />
+        <Cone Textid="virtualbox.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
 
       <div>
         <Skill Skillname="VMWare" />
-        <Cone Textid="vmware" />
+        <Cone Textid="vmware.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
 
       <div>
         <Skill Skillname="Docker" />
-        <Cone Textid="docker" />
+        <Cone Textid="docker.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
 
       <div>
         <Skill Skillname="Oracle Cloud" />
-        <Cone Textid="oraclecloud" />
+        <Cone Textid="oraclecloud.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
 
 
@@ -138,24 +216,39 @@
     <div class="skill">
       <div>
         <Skill Skillname="LaTeX" />
-        <Cone Textid="latex" />
+        <Cone Textid="latex.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
   
       <div>
         <Skill Skillname="Markdown" />
-        <Cone Textid="markdown" />
+        <Cone Textid="markdown.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
       <div>
         <Skill Skillname="Obsidian" />
-        <Cone Textid="obsidian" />
+        <Cone Textid="obsidian.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
       <div>
         <Skill Skillname="Notion" />
-        <Cone Textid="notion" />
+        <Cone Textid="notion.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
       <div>
         <Skill Skillname="Pack Office" />
-        <Cone Textid="office" />
+        <Cone Textid="office.png"
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
     </div>
     </div>
@@ -166,15 +259,24 @@
     <div class="skill">
         <div>
             <Skill Skillname="Photoshop" />
-            <Cone Textid="photoshop" />
+            <Cone Textid="photoshop.jpg"
+            :textureLoader="textureLoader"
+            :renderer="renderer"
+            />
         </div>
         <div>
             <Skill Skillname="Blender" />
-            <Cone Textid="blender" />
+            <Cone Textid="blender.png" 
+            :textureLoader="textureLoader"
+            :renderer="renderer"
+            />
         </div>
         <div>
             <Skill Skillname="Unity" />
-            <Cone Textid="unity" />
+            <Cone Textid="unity.png"         
+            :textureLoader="textureLoader"
+            :renderer="renderer"
+            />
         </div>
     </div>
     </div>
@@ -183,11 +285,17 @@
     <div class="skill">
       <div>
         <Skill Skillname="Python" />
-        <Cone Textid="python" />
+        <Cone Textid="python.png"         
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
       <div>
         <Skill Skillname="Numpy | Numjs" />
-        <Cone Textid="numpy" />
+        <Cone Textid="numpy.png" 
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+        />
       </div>
     </div>
     </div>
@@ -196,11 +304,18 @@
   <script>
   import Skill from '../object/Skill.vue';
   import Cone from '../object/Cone.vue';
-  
+  import * as THREE from 'three';
   export default ({
       name : "SkillList",
-      components: { Skill, Cone, Skill }
-  })
+      components: { Skill, Cone, Skill },
+    data() {
+    return {
+      textureLoader: new THREE.TextureLoader(),
+      //const renderer = new THREE.WebGLRenderer({ canvas: this.$refs.canvas , alpha: true})
+      renderer : new THREE.WebGLRenderer({ alpha : true })
+    }
+  }
+})
   </script>
   
   <style scoped>
