@@ -41,13 +41,11 @@
 
     Par la suite, je poursuiverai avec le <b>cycle ingénieur informatique et cybersécurité (ICS)</b> à l'école <b>CPE Lyon</b>.
 
-
-    <p>Ci-desous, retrouvez mon CV (réalisé à l'occasion pour mon stage de Juin 2023 que j'ai trouvé)</p>
-
+    <br><br><br>
 
 <div class="pdf-link">
   <img src="../assets/img/pdf.png" alt="PDF">
-  <a href="CV.pdf" download="CV Hugo Jacquel.pdf" target="_blank">CV Hugo Jacquel Septembre 2022</a>
+  <a href="CV.pdf" download="CV Hugo Jacquel.pdf" target="_blank">CV Hugo Jacquel Septembre 2023</a>
 </div>
 
 

@@ -3,7 +3,7 @@
     <h1>Scolarité</h1>
     <div class="content-sco">
     <Cursus 
-    cursusName="BTS SIO 1" 
+    cursusName="BTS SIO 2" 
     institutionName="Institution des Chartreux"
     date="Septembre 2022 - Aujourd'hui | Croix Rousse, Lyon 69001" 
     />
@@ -14,7 +14,7 @@
         <b>Spécialité SLAM (Solutions Logicielles et Applications Métiers)</b> : Développement d'applications web et de logiciels.
         <br>
         <br>
-        Technologies utilisées : <b>C# , Python, PHP , HTML, CSS , Javascript</b>
+        Technologies utilisées : <b>C# , Python, PHP , HTML, CSS , Javascript, Laravel, Java, SonarQube, Framework de TDD, Cisco Packet Tracer</b>
     </p>
     
     <Cube 
