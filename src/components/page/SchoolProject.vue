@@ -4,6 +4,32 @@
 
     <h2>Institution des Chartreux - BTS SIO 2</h2>
     
+
+
+    <Project
+    ProjectName="Manage My SI (PPE Lourd)"
+    ProjectDescription="Application client lourd Java Hibernate, gestion de stock
+    informatique et logistique avec système d'état , collaboratif avec un système de permission
+    au sein de l'entreprise"
+    ProjectImg="ManageMySI.png"
+    ProjectDate="(Janvier 2023)"
+    ProjectLink="https://github.com/ArtilleryJuggernot/MyManagerSI"
+    ProjectTech="Java, Hibernate, MariaDB"
+    />
+
+    <Project
+    ProjectName="Zeus (PPE Léger)"
+    ProjectDescription="Application SaaS de gestion de notes, dossier, tâches et projets 
+    collaborative avec un système de permission avancées et possibilité d'extensibilité sous forme de module. Système d'Organisation
+    optimale sous forme de catégorie et de recherche rapide."
+    ProjectImg="Zeus.jpeg"
+    ProjectDate="(Novembre 2023)"
+    ProjectLink="https://github.com/ArtilleryJuggernot/Zeus"
+    ProjectTech="Laravel, Laravel Fortify, JS, Ajax, MariaDB, System File"
+    />
+
+
+
     <div id="fireman">
     <Project
         ProjectName="Fireman"

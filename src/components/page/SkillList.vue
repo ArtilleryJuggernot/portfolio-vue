@@ -72,6 +72,28 @@
             :renderer="renderer"
          />
       </div>
+
+      <div>
+        <Skill Skillname="Java"/>
+        <Cone Textid="java.png" 
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
+      </div>
+
+
+      <div>
+        <Skill Skillname="Hibernate"/>
+        <Cone Textid="hibernate.jpeg" 
+        :textureLoader="textureLoader"
+            :renderer="renderer"
+         />
+      </div>
+
+      
+
+
+
     </div>
   </div>
     <h1>Front End Web</h1>
@@ -166,6 +188,13 @@
         :textureLoader="textureLoader"
             :renderer="renderer"
         />
+      </div>
+
+      <div>
+        <Skill Skillname="Laravel"/>
+        <Cone Textid="laravel.jpg"
+        :textureLoader="textureLoader"
+        :renderer="renderer"/>
       </div>
     
     </div>

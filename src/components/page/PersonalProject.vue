@@ -1,6 +1,28 @@
 <template>
     <h1>Liste des projets personnels :</h1>
 
+    <Project
+    ProjectName="Zeus"
+    ProjectDescription="Application SaaS de gestion de notes, dossier, tâches et projets 
+    collaborative avec possibilité d'extensibilité sous forme de module. Système d'Organisation
+    optimale sous forme de catégorie et de recherche rapide"
+    ProjectImg="Zeus.jpeg"
+    ProjectDate="(Novembre 2023)"
+    ProjectLink="https://github.com/ArtilleryJuggernot/Zeus"
+    ProjectTech="Laravel, Laravel Fortify, JS, Ajax, MariaDB, System File"
+    />
+
+    <Project
+    ProjectName="Nebula Noodle"
+    ProjectDescription="Initiation au framework Laravel, intranet pour un jeu 
+    vidéo RPG fictif avec système de boutique, marché entre les joueurs , système de 
+    sort et d'item et spécialisation"
+    ProjectImg="NN_logo.png"
+    ProjectDate="(Octobre 2023)"
+    ProjectLink="https://github.com/ArtilleryJuggernot/nebula_noodle"
+    ProjectTech="Laravel, Laravel Fortify, JS, Ajax, MariaDB"
+    />
+
 
     <Project
         ProjectName="Portfolio"

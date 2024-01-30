@@ -14,7 +14,7 @@
         <b>Spécialité SLAM (Solutions Logicielles et Applications Métiers)</b> : Développement d'applications web et de logiciels.
         <br>
         <br>
-        Technologies utilisées : <b>C# , Python, PHP , HTML, CSS , Javascript, Laravel, Java, SonarQube, Framework de TDD, Cisco Packet Tracer</b>
+        Technologies utilisées : <b>C# , Python, PHP , HTML, CSS , Javascript, Laravel, Java, SonarQube, Framework de TDD, Cisco Packet Tracer, Laravel</b>
     </p>
     
     <Cube 
