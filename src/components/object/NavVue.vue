@@ -5,7 +5,7 @@
     <router-link to="/scolarity">Scolarité</router-link> |
     <router-link to="/experience">Stage & Expérience</router-link> |
     <router-link to="/skills">Skills</router-link> |
-   
+    <router-link to="/Veille">Veille</router-link>
     <br>
     <br>
     <router-link to="/projects">Projets</router-link> |

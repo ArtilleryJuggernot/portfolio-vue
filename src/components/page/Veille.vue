@@ -7,7 +7,7 @@
 
 
 
-    <p>L'objectif de cette veille est :</p> 
+    <p class="size">L'objectif de cette veille est :</p> 
     <ul>
         <li>
             <p>De la rationnaliser : Tourner les recherches réalisées pendant la veille vers un objectif concret pour une entreprise :</p>
@@ -36,6 +36,24 @@
   <img src="../../assets/img/pdf.png" alt="PDF">
   <a href="./Synthèse_de_la_mise_en_oeuvre_de_la_veille.pdf" download="Synthèse de la mise en oeuvre de la veille Hugo Jacquel SIO2.pdf" target="_blank">Synthèse de la mise en oeuvre de la veille Hugo Jacquel</a>
 </div>
+
+<br>
+
+<div class="pdf-link">
+  <img src="../../assets/img/pdf.png" alt="PDF">
+  <a href="./Synthèse_de_la_veille_informationnelle_sur_les_cyber_attaques___BTS_SIO_2_Hugo_Jacquel.pdf" download="Synthèse de la veille informationelle Evolution des cyberattaques dans un SI d'entreprise Hugo Jacquel SIO2.pdf" target="_blank">Synthèse de la veille informationelle Evolution des cyberattaques dans un SI d'entreprise</a>
+</div>
+
+<br>
+
+<div class="pdf-link">
+  <img src="../../assets/img/pdf.png" alt="PDF">
+  <a href="./Powerpoint_Veille_Informationelle_Evolution_des_cyberattaques_dans_un_SI.pdf" download="Powerpoint_Veille_Informationelle_Evolution_des_cyberattaques_dans_un_SI.pdf" target="_blank">Powerpoint Veille Informationelle Evolution des cyberattaques dans un SI.pdf</a>
+</div>
+
+
+
+
 
 </template>
 
